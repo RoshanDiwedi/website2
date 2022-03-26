@@ -1,143 +1,155 @@
 /* Root Css call */
-:root{
-    --primary-color: #000;
-    --secondary-color: #fff;
-    --heading-text: #3882f6;
-    --bg-color-light: #efefef;
-    --bg-dark-blue: #1f2937;
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --heading-text: #3882f6;
+  --bg-color-light: #efefef;
+  --bg-dark-blue: #1f2937;
 }
 
 /* Global Css */
-*, *:after, *:before{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'DM Sans', sans-serif;
+body {
+  font-family: "DM Sans", sans-serif;
 }
 
-.fix-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
+.fix-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.flex-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.fix-container-box {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.container{
-    padding: 80px 40px;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    font-family: 'DM Sans', sans-serif;
+.container {
+  padding: 80px 40px;
 }
 
-
+button {
+  padding: 15px 60px;
+  border: none;
+  border-radius: 3px;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 25px;
+}
 
 /* header Section */
-.header{
-    background-color: var(--bg-dark-blue);
-    padding: 20px 40px;
+.header {
+  background-color: var(--bg-dark-blue);
+  padding: 20px 40px;
 }
 
-.logo{
-    color: var(--secondary-color);
+.logo {
+  color: var(--secondary-color);
 }
 
-nav a{
-    color: var(--secondary-color);
-    margin-left: 15px;
-    text-decoration: none;
+nav a {
+  color: var(--secondary-color);
+  margin-left: 15px;
+  text-decoration: none;
 }
-
-
 
 /* Hero section */
-.hero{
-    background-color: var(--bg-dark-blue);
-    background-image: url(/nature.jpg);
-    background-size: cover;
+.hero {
+  background-color: var(--bg-dark-blue);
+  background-image: url(/nature.jpg);
+  background-size: cover;
 }
 
-.hero-main1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.hero-main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.heading-text h1{
-    font-size: 48px;
+.heading-text h1 {
+  font-size: 48px;
 }
 
-.btn{
-    background-color: var(--heading-text);
-    color: var(--bg-color-light);
+.btn {
+  background-color: var(--heading-text);
+  color: var(--bg-color-light);
 }
 
-.header-text, h1, p{
-    color: var(--secondary-color);
-    line-height: 1.5em;
+.header-text,
+h1,
+p {
+  color: var(--secondary-color);
+  line-height: 1.5em;
 }
 
-img{
-    max-width: 100%;
-    width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 /* usp Section */
-.usp-heading{
-    text-align: center;
-    margin-bottom: 20px;
-    color: var(--heading-text);
+.usp-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--heading-text);
 }
 
-.main-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0px 15px;
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 15px;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: var(--bg-color-light);
-    border-radius: 5px;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 7px 0px #000;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--bg-color-light);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 7px 0px #000;
 }
-
-
 
 /* testimonial section */
-.testimonial-text{
-    background-color: var(--bg-color-light);
-    font-weight: 400;
+.testimonial {
+  background-color: var(--bg-color-light);
 }
 
-.cta-box{
-    padding: 20px 30px;
-    background-color: var(--heading-text);
-    border-radius: 5px;
+.testimonial-text {
+  font-weight: 400;
 }
 
-
+/* CTA seciton */
+.cta-box {
+  padding: 20px 30px;
+  background-color: var(--heading-text);
+  border-radius: 5px;
+}
 
 /* footer Section */
-.footer{
-    background-color: var(--bg-dark-blue);
-    padding: 15px 40px;
-    text-align: center;
+.footer {
+  background-color: var(--bg-dark-blue);
+  padding: 15px 40px;
+  text-align: center;
+}
+
+/* Media Query */
+
+@media screen {
 }
