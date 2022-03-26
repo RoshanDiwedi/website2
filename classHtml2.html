@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+        }
+
+        h1{
+            font-size: 48px;
+            color: #f9faf8;
+        }
+        
+        h2{
+            font-size: 36px;
+            color: #2c2c2c;
+        }
+
+        p{
+            color: #fff;
+        }
+        
+        ul li{
+            list-style: none;
+        }
+
+        header{
+            width: 100%;
+            padding: 25px 150px 0 150px;
+            box-sizing: border-box;
+        }
+
+        header nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .nav ul{
+            display: flex;
+        }
+
+        #inner_header{
+            width: 1200px;
+            margin: 0 auto;
+            display: block;
+            height: 100%;
+        }
+
+        .logo{
+            font-size: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+        }
+
+        .logo a{
+            color: #fff;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .nav a{
+            color: #fff;
+            text-decoration: none; 
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;   
+            margin-left: 15px;   
+            color: #f9faf8;
+        }
+
+
+
+        /* Heading and Image section */
+
+        #hero{
+            background-color: #1f2937;
+            padding: 80px 40px;
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 150px;
+        }
+
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color: #e5e7eb;
+        }
+
+        .box p{
+            color: #000;
+            text-align: center;
+            justify-content: center;
+            padding: 90px 0;
+        }
+
+        .btn{
+            width:150px;
+            height: 35px;
+            background-color: #3882f6;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+
+        /* Pods section */
+
+        #pods{
+            text-align: center;
+            padding: 40px 40px 150px 40px;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            margin-top: 35px !important;
+            width: 980px;
+            margin: auto;
+        }
+
+        .main_col{
+            width: 25%;
+            /* margin-left: 35px; */
+            justify-content: center;
+            overflow: hidden;
+
+        }
+
+        .col{
+            width: 200px;
+            height: 200px;
+            border:3px solid #3882f6;
+            border-radius: 10%;
+            box-sizing: border-box;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+
+
+        /* Testomonials section */
+        .testomonial{
+            background-color: #e5e7eb;
+            padding: 80px 40px;
+        }
+
+        .testomonial_text{
+            width: 980px;
+            margin: 0 auto;
+            font-size: 36px;
+            
+        }
+
+        .testomonial_text p{
+            color: #000;
+        }
+
+
+        /* Cta Section */
+        #cta{
+            background: #fff;
+            padding: 80px 150px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box_cta{
+            width: 980px;
+            padding: 40px;
+            background-color: #3882f6;
+            border-radius: 15px;
+            display: flex;
+        }
+
+        .text_cta{
+            width: 50%;
+        }
+
+        .btn_border{
+            width:150px;
+            height: 35px;
+            background-color: #3882f6;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            right: 0;
+            
+        }
+
+        .btn_cta{
+            width: 50%;
+            justify-content: right;
+        }
+
+    </style>
+</head>
+<body>
+    <header style="background-color: #1f2937;">
+
+        <nav>
+            <div class="logo"><a href="#">Header Logo</a></div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Header link one</a></li>
+                    <li><a href="#">Header link two</a></li>
+                    <li><a href="#">Header link three</a></li>
+                </ul>
+        </nav>
+
+    </header>
+
+    <!-- navigation and Hero section -->
+    <section id="hero">
+
+        <div class="head_text">
+                <h1>This website is <br>awesome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn" name="signup">sign up</button>
+        </div>
+
+        <div class="placeholder">
+            <div class="box">
+                <p>Placeholder</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pods section -->
+    <section id="pods">
+        <div>
+            <h2>Some random information.</h2>
+        </div>
+
+        <div class="main">
+
+            <div class="main_col">
+                <div class="col"></div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            </div>
+            <div class="main_col">
+                <div class="col"></div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+            <div class="main_col">
+                <div class="col"></div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+            <div class="main_col">
+                <div class="col"></div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- testomonial section -->
+    <section class="testomonial">
+        <div class="testomonial_text">
+            <p><em>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis amet quasi eligendi atque corporis et repellat dolor praesentium est voluptatibus temporibus enim sed nihil, ullam dolorum soluta, ab necessitatibus esse?
+            </em></p>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section id="cta">
+        <div class="box_cta">
+            <div class="text_cta">
+                <h3>Lorem ipsum dolor sit amet  elit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="btn_cta">
+                <button class="btn_border">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+
+</body>
+</html>

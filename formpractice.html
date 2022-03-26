@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Query Form</title>
+  <link rel="stylesheet" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+  <style media="screen">
+    /* Globle css */
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: #363742;
+    }
+
+    h1{
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      color: #212140;
+      letter-spacing: 0.5px;
+      line-height: 54px;
+      margin: 0;
+    }
+
+    p{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+    }
+
+    /* Main contianer */
+    .main_container{
+      width: 60%;
+      background: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      justify-content: center;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    /* form section */
+    .label_title{
+      margin-bottom: 5px;
+    }
+
+    .form_input{
+      background-color: #e8f0fe;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 3px;
+    }
+
+    .btn{
+      background-color: #ffc107;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      padding: 10px 15px;
+      margin-top: 25px;
+    }
+
+    .btn:hover{
+      background-color: #fcfca5;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="main_container container">
+
+    <!-- Main title -->
+    <div class="title">
+      <h1>In which courses are you interested in?</h1>
+    </div>
+
+    <!-- form -->
+    <div class="form_section form">
+      <form action="#">
+        <label for="name">
+          <p class="label_title inp">Full Name</p>
+          <input type="text" placeholder="Write your full name" class="form_input" name="" value="">
+        </label>
+        <label for="phone">
+          <p class="label_title inp">Phone Number</p>
+          <input type="phone" placeholder="Write your phone number" class="form_input" name="" value="">
+        </label>
+        <label for="Email">
+          <p class="label_title inp">Email</p>
+          <input type="email" placeholder="Write your e-mail address" class="form_input" name="" value="">
+        </label>
+        <label for="select">
+          <p class="label_title inp">Select your courses</p>
+          <select name="Select your courses" class="form_input">
+            <option value="first">Begineer Course (499/-)</option>
+            <option value="second">Intermediate Course (4999/-)</option>
+            <option value="third">Expert Course (5999/-)</option>
+          </select>
+        </label>
+        <label for="name">
+          <p class="label_title inp">Write any suggestion or Query</p>
+          <textarea name="name" rows="8" cols="80" class="form_input" placeholder="Write your interest here..."></textarea>
+        </label>
+        <label for="submit">
+          <input type="submit" name="submit" value="Submit" class="btn btn_subimt">
+        </label>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>

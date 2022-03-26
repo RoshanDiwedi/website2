@@ -1,0 +1,138 @@
+/* golbal Css */
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 17px;
+}
+
+h1, h2, p{
+  margin: 0;
+  padding: 0px;
+}
+
+.btn{
+  width: 180px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* header section */
+.head_item{
+  background-color: #efefef;
+  padding: 0 36px;
+  display: flex;
+  z-index: 5;
+}
+
+.logo img{
+  width: 48px;
+}
+
+.nav_logo_title{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo_title{
+  font-size: 27px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #232323;
+  margin-left: 10px;
+}
+
+.logo_title a{
+  text-decoration: none;
+  color: #232323;
+}
+
+.nav_container{
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: #232323;
+  margin: 0;
+}
+
+.navbar li a{
+  display: flex;
+  font-size: 17px;
+  font-weight: 500;
+  list-style: none;
+  text-decoration: none;
+  color: #232323;
+  margin-right: 15px;
+  height: 100px;
+  align-items: center;
+  padding: 0 1.5em;
+}
+
+.navbar li a:hover{
+  background-color: #fff;
+}
+
+
+/* Hero section */
+.hero{
+  background-image: url(/mbr.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 25px;
+}
+
+.bg_img{
+  width: 70%;
+  margin: auto;
+}
+.hero_text{
+  max-width: 50%;
+}
+
+.hero_soft{
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero_heading{
+  margin-bottom: 32px;
+}
+
+.hero_content{
+  font-weight: 500;
+  line-height: 1.9;
+  margin-bottom: 32px;
+}
+
+.hero_btn{
+  background-color: #f7d9c4;
+  color: #232323;
+  box-shadow: 0 0px 13px 0px #1a1a1a;
+}
+
+.hero_btn:hover{
+  background-color: #fff;
+}
+
+
+/* course section */
+.course_main{
+  background: #efefef;
+}
