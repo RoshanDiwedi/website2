@@ -5,6 +5,7 @@
   --heading-text: #3882f6;
   --bg-color-light: #efefef;
   --bg-dark-blue: #1f2937;
+  --box-width: 980px;
 }
 
 /* Global Css */
@@ -27,7 +28,7 @@ body {
 }
 
 .fix-container-box {
-  max-width: 980px;
+  max-width: var(--box-width);
   margin: 0 auto;
   width: 100%;
 }
