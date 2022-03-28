@@ -48,7 +48,6 @@ button {
   border: none;
   border-radius: 3px;
   font-family: "DM Sans", sans-serif;
-  margin-top: 25px;
 }
 
 /* header Section */
@@ -87,6 +86,7 @@ nav a {
 .btn {
   background-color: var(--heading-text);
   color: var(--bg-color-light);
+  margin-top: 25px;
 }
 
 .header-text,
@@ -138,9 +138,20 @@ img {
 
 /* CTA seciton */
 .cta-box {
-  padding: 20px 30px;
+  padding: 40px 60px;
   background-color: var(--heading-text);
   border-radius: 5px;
+}
+
+.cta-text h3 {
+  font-size: 35px;
+  color: #efefef;
+}
+
+.cta-btn {
+  background-color: var(--heading-text);
+  border: 3px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 /* footer Section */
@@ -150,7 +161,42 @@ img {
   text-align: center;
 }
 
-/* Media Query */
+/* Media Query for mobile device */
 
-@media screen {
+@media screen and (max-width: 767px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  .main-box {
+    margin-top: 30px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .hero-img {
+    margin-bottom: 30px;
+  }
+
+  .container {
+    padding: 30px 20px;
+  }
+
+  .hero-main {
+    flex-direction: column-reverse;
+  }
+
+  .heading-text h1 {
+    font-size: 28px;
+  }
+
+  .usp-margin-top {
+    margin-top: 0;
+  }
+
+  .usp-heading h2 {
+    font-size: 30px;
+  }
 }

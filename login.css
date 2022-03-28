@@ -1,0 +1,16 @@
+/*  */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+.pro-main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-col {
+  border: 1px solid #000;
+  padding: 15px 25px;
+}
