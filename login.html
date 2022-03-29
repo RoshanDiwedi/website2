@@ -6,170 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Panel</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="login.css">
 </head>
 <body>
-    <!-- main Section -->
-    <main class="main">
-        <section class="main-container">
-            <div class="row ">
-                <section class="flex-container">
-
-                    <!-- Navigation Section -->
-                    <div class="nav-col ">
-                        <div class="logo-col">
-                            <img src="logo.jpg" alt="LOGO">
-                        </div>
-
-                        <div class="tool aside-txt">
-                            <h1 class="hg-text">Tools</h1>
-                            <p>Dashboard</p>
-                            <p>Payroll</p>
-                            <p>Offers</p>
-                            <p>People</p>
-                            <p>Statistics</p>
-                        </div>
-
-                        <div class="others aside-txt">
-                            <h1 class="hg-text">Tools</h1>
-                            <p>Chat</p>
-                            <p>support</p>
-                            <p>Calendar</p>
-                        </div>
-
-                    </div>
-
-                    <!-- Dashboard Section -->
-                    <div class="dashboard-container">
-                        <div class="hg-txt">
-                            <div>You need to hire</div>
-                            <div>View</div>
-                        </div>
-
-                        <!-- Project Manager Section -->
-                        <div class="pro-main-container">
-                            <div class="pro-container">
-                                <div class="pro-box">
-                                    <div class="pro-str-txt">
-                                        2
-                                    </div>
-                                    <div class="pro-mid-txt">
-                                        <h3>Project Manager</h3>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <div class="pro-icon">
-                                        <img src="/per.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="pro-box">
-                                    <div class="pro-box">
-                                        <div class="pro-str-txt">
-                                            2
-                                        </div>
-                                        <div class="pro-mid-txt">
-                                            <h3>Project Manager</h3>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                        <div class="pro-icon">
-                                            <img src="/per.png" alt="">
-                                        </div>
-                                </div>
-                            </div>
-                            
-                            <div class="pro-container">
-                                <div class="pro-box">
-                                    <div class="pro-box">
-                                        <div class="pro-str-txt">
-                                            2
-                                        </div>
-                                        <div class="pro-mid-txt">
-                                            <h3>Project Manager</h3>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                        <div class="pro-icon">
-                                            <img src="/per.png" alt="">
-                                        </div>
-                                </div>
-
-                                <div class="pro-box">
-                                    <div class="pro-box">
-                                        <div class="pro-str-txt">
-                                            2
-                                        </div>
-                                        <div class="pro-mid-txt">
-                                            <h3>Project Manager</h3>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                        <div class="pro-icon">
-                                            <img src="/per.png" alt="">
-                                        </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>>
-
-                    <!-- search Container -->
-                    <div class="srch-container">
-                        <div class="hg-txt">
-                            <h1>83 Candidates</h1>
-                        </div>
-
-                        <div class="srch-box">
-                            <div class="srch">
-                                <input type="search">
-                                <button>Position</button>
-                                <button>More</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Profile Container -->
-                    <div class="pfl-main-container">
-                        <div class="pfl-container">
-                            <div class="pfl-box">
-                                <img src="/per.png" alt="">
-                                <h2>Elmer Cobb</h2>
-                                <p>Net Developer</p>
-                            </div>
-
-                            <div class="pfl-box">
-                                <img src="/per.png" alt="">
-                                <h2>Elmer Cobb</h2>
-                                <p>Net Developer</p>
-                            </div>
-
-                            <div class="pfl-box">
-                                <img src="/per.png" alt="">
-                                <h2>Elmer Cobb</h2>
-                                <p>Net Developer</p>
-                            </div>
-                        </div>
-
-                        <div class="pfl-container">
-                            <div class="pfl-box">
-                                <img src="/per.png" alt="">
-                                <h2>Elmer Cobb</h2>
-                                <p>Net Developer</p>
-                            </div>
-
-                            <div class="pfl-box">
-                                <img src="/per.png" alt="">
-                                <h2>Elmer Cobb</h2>
-                                <p>Net Developer</p>
-                            </div>
-
-                            <div class="pfl-box">
-                                <img src="/per.png" alt="">
-                                <h2>Elmer Cobb</h2>
-                                <p>Net Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+    <!-- Main Section -->
+    <div class="container">
+        <aside>
+            <div class="top">
+                <img src="./images/logo.png" alt="">
+                <h2>EGA <span class="danger">TOR</span></h2>
             </div>
-        </section>
-    </main>
+
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Customer</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">receipt_long</span>
+                    <h3>Order</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">report_gmailerrorred</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add product</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">setting</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+
+        </aside>
+    </div>
 </body>
 </html>
