@@ -105,12 +105,17 @@ button {
 }
 
 /* header section */
-#close{
-    display: none;
-}
 
 .nav-padding {
   padding: 30px 0;
+}
+
+.fa-bars{
+  display: none;
+}
+
+.fa-xmark{
+  display: none;
 }
 
 div.logo > :first-child {
@@ -121,8 +126,8 @@ nav a {
   margin-left: 15px;
 }
 
-#myLinks{
-    display: none;
+.fa-xmark{
+  display: none;
 }
 
 .flex-basis {
@@ -265,9 +270,6 @@ div.testimonial-box > :last-child{
     justify-content: center;
 }
 
-.cta-container h1, p{
-    text-align: center;
-}
 
 .cta-box{
     margin: 0 auto;
@@ -312,21 +314,60 @@ div.cta-box > :last-child{
     padding: 30px 30px 0px 30px;
   }
 
+
+  /* mobile toggle navigation */
   .nav{
-      display: none;
+    display: none;
   }
 
-  /* toggle */
-  #close{
+  .fa-bars{
     display: block;
-    font-size: 50px;
-}
-
-  #myLinks{
-      display: block;
   }
 
- /* toggle End*/
+  .fa-xmark{
+    display: none;
+  }
+
+  .fa-solid{
+    font-size: 25px;
+    z-index: 2;
+    position: absolute;
+    right: 6%;
+  }
+
+  input:checked ~ nav>.nav{
+    display: block;
+  }
+
+  input:checked ~ label>.fa-xmark{
+    display: block;
+    color: var(--color-light);
+  }
+
+  input:checked ~ label>.fa-bars{
+    display: none;
+  }  
+
+  .nav>a{
+    display: block;
+    margin: 0;
+    color: var(--color-light);
+    line-height: 3;
+    
+  }
+
+  .nav{
+    background-color: var(--color-dark);
+    padding: 51px 50px 50px 25px;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+  }
+
+  /* mobile end */
 
 
   .right-col {
